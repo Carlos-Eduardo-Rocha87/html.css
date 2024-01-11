@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    
+    <div class="caixa" id="caixa"><br>
+    
+    <form action="get">
+        
+    <fieldset>
+        <legend>Formulário de Cientes</legend>
+        <br>
+        <br>
+        <p class="box-input">
+             
+                    <input  type="text" id="iname" autocomplete="off" required class="input-i" >
+                    <label  for="iname" class="input-l">Nome completo</label >
+                        
+            <br>
+        </p>
+        
+        <p class="box-input">
+            
+            <input type="email" name="email" autocomplete="off" required id="iemail" class="input-i" maxlength="25">
+            <label for="iemail" class="input-l">Email</label>
+            <br>
+        </p>
+        
+        <p class="box-input">
+            
+            <input type="tel" autocomplete="off" required name="tel" class="input-i" id="itel">
+            <label for="itel" class="input-l">Telefone</label>
+        </p>
+        
+        <p>
+           Sexo:
+        </p>
+        <p>
+            <input class="gf" checked type="radio" name="sexo" id="ifem" value="fem"> 
+            <label class="g"   for="ifem">Feminino</label> <br>
+
+            <input class="gf"  type="radio" name="sexo" id="imasc" value="masc"> 
+            <label class="g"   for="imasc">Masculino</label>  <br>
+
+            <input  class="gf" type="radio" name="sexo" id="iout" value="Out"> 
+            <label class="g" for="iout">Outro</label>
+        </p>    
+     <p>
+            <label for="inasc" class="fh">Data de nascimento:</label> 
+            <input class="fg" required  type="date" id="inasc">
+    </p>
+             <br>
+             <p class="box-input">
+                
+                <input type="text" autocomplete="off" required class="input-i" id="icid">
+                <label for="icid"   class="input-l" >Cidade</label>
+                <br>
+             </p>
+             <p class="box-input">
+                
+                <input type="text" list="est" autocomplete="off" required  class="input-i" id="iest">
+                <label for="iest" class="input-l">Estado</label>
+                <datalist id="est">
+                    <option value="Acre">
+  
+ 
+                        <option value="Alagoas">
+                          
+                         
+                        <option value="Amapá">
+                          
+                         
+                        <option value="Amazonas">
+                          
+                         
+                        <option value="Bahia">
+                          
+                         
+                        <option value="Ceará">
+                          
+                         
+                        <option value="Distrito Federal">
+                          
+                         
+                        <option value="Espírito Santo">
+                          
+                         
+                        <option value="Goiás">
+                          
+                         
+                        <option value="Maranhão">
+                          <option value="Mato Grosso">
+                          
+                          
+                        <option value="Mato Grosso do Sul">
+                          
+                         
+                        <option value="Minas Gerais">
+                          
+                         
+                        <option value="Pará">
+                          
+                         
+                        <option value="Paraíba">
+                          
+                         
+                        <option value="Paraná">
+                          
+                         
+                        <option value="Pernambuco">
+                          
+                         
+                        <option value="Piauí">
+                          
+                         
+                        <option value="Rio de Janeiro">
+                          
+                         
+                        <option value="Rio Grande do Norte">
+                          
+                         
+                        <option value="Rio Grande do Sul">
+                          
+                         
+                        <option value="Rondônia">
+                          
+                         
+                        <option value="Roraima">
+                          
+                         
+                        <option value="Santa Catarina">
+                          
+                         
+                        <option value="São Paulo">
+                          <option value="Sergipe">
+                          
+                         
+                        <option value="Tocantins">
+                        
+                </datalist>
+            </p>
+                <br>
+             </p>
+             <p class="box-input">
+                
+                <input type="text" autocomplete="off" required  class="input-i" id="iend">
+                <label for="iend" class="input-l">Endereço</label>
+                <br>
+             </p>
+             <p>
+                <input class="submit" type="submit" value="Enviar">
+            </p>
+         </fieldset>
+</form>
+</div>
+</body>
+</html>

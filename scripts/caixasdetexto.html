@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+     let numero = prompt("Escolha um numero");
+     while (numero**2 != prompt("Qual é o quadrado desse numero?")){
+          alert("você errou, o quadrado do número " + numero + " não é isso!")
+          prompt("Qual é o quadrado do numero " + numero + "?")
+     };
+     alert("você acertou!")
+    </script>
+    <script>
+    let opcao = confirm("Deseja encerrar? ");
+       if ((opcao==true)){ 
+        document.write("Sua escolha foi: " + opcao);
+       }else{
+        while ((opcao==false)){
+            opcao = confirm("Deseja encerrar? ");
+        }
+       }
+       
+    
+    </script>
+</body>
+</html>

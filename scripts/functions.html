@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      var msg_formt = function imprimirHora(texto){
+        if (texto == undefined)
+        {
+            return '...'
+        };
+
+        let data = new Date();
+
+        let hora = data.getHours();
+        let minut = data.getMinutes();
+        let second = data.getSeconds();
+        
+        let msg = (hora + ':' + minut + ':' + second + '  ' + texto);
+        return msg;
+}
+        console.log(imprimirHora(prompt('digite o texto')));
+        console.log(imprimirHora() );
+        console.log(imprimirHora('hghythhjgk'));
+    </script>
+</body>
+</html>

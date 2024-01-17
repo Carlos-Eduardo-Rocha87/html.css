@@ -41,7 +41,7 @@ header > h1, header > main{
    
 }header > h1{
     font-family: 'Bebas Neue', sans-serif;
-
+    font-size: 40px;
 }
 header > main{
     text-align: center;
